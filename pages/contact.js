@@ -42,7 +42,7 @@ export default function Contact()
                                     <i className="flaticon-world"></i>
                                     <div className="info-text">
                                         <h6>Our Address:</h6>
-                                        <p>C-4406 , New C Block, RJPM1 , Lucknow, UP-226017 IND</p>
+                                        <p>C-2139 Rajajipuram , Near Meena Bakery Chauraha , Lucknow, Uttar Pradesh-226017 </p>
                                     </div>
                                 </div>
                                 <div className="contact-info text-light m-b30">
