@@ -83,5 +83,6 @@ export default function Footer()
         <i className="flaticon-arrow-pointing-to-up"></i></a>
         </Link>
         </div>
+        
     )
 }
