@@ -4,6 +4,7 @@ export default function Footer()
 {
     return(
         <div>
+            
             <footer id="site-footer" className="site-footer bg-gradient footer-top-bottom">
         <div className="footer-shape-top">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
@@ -20,7 +21,7 @@ export default function Footer()
                 <div className="ft-col-contact text-center">
                     <div className="contact-info box-style2 text-light">
                         <div className="box-icon"><i className="flaticon-world"></i></div>
-                        <p>C- 4406 , New C Block , RJPM1, Lucknow ,UP -226017 IND</p>
+                        <p>C- 2139  Rajajipuram, Near Meena Bakery Chauraha, Lucknow ,UP -226017 IND</p>
                         <h6>Our Address</h6>                                            
                     </div>
                 </div>
@@ -40,7 +41,7 @@ export default function Footer()
                 <div className="ft-col-contact text-center">
                     <div className="contact-info box-style2 text-light">
                         <div className="box-icon"><i className="flaticon-viber"></i></div>
-                        <p><Link href="tel:800-456-478-23">
+                        <p><Link href="tel:+91 9170787453">
                             <a >+919170787453</a></Link></p>
                         <h6>Our Phone</h6>                                          
                     </div>
@@ -59,7 +60,7 @@ export default function Footer()
             </div>
 
             <p className="copyright text-center">Gnarium Iqnovative | All Rights Reserved | 2020 </p>
-
+            
             <div className="footer-social text-center">
                 <Link href="https://twitter.com/GIqnovative">
                 <a className="footer-social-icon twitter"  target="_blank"><i className="fab fa-twitter"></i></a></Link>
@@ -70,8 +71,12 @@ export default function Footer()
                 <Link href="https://www.instagram.com/gnariumiqnovative/">
                 <a className="footer-social-icon instagram"  target="_blank"><i className="fab fa-instagram"></i></a></Link>
             </div>
-
         </div>
+        <Link href="https://wa.me/+919170787453">
+            <a className="footer-social-icon whatsapp whatsapp_float" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-whatsapp whatsapp-icon"></i>
+            </a>
+        </Link>
     </footer>
     <Link href="#">
     <a id="back-to-top"  className="show">
