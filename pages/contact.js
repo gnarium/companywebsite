@@ -37,6 +37,7 @@ export default function Contact()
                                     <h6><span>contact details</span></h6>
                                     <h2 className="main-heading">Our Contacts </h2>
                                 </div>
+        
                                 <p className="m-b45">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p>
                                 <div className="contact-info text-light m-b30">
                                     <i className="flaticon-world"></i>
