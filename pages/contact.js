@@ -49,7 +49,7 @@ export default function Contact()
                                 <div className="contact-info text-light m-b30">
                                     <i className="flaticon-note"></i>
                                     <div className="info-text">
-                                        <h6>Our mailbox:</h6>
+                                        <h6>Our mailbox: test</h6>
                                         <p><a href="mailto:info@gnariumiqnovative.com">info@gnariumiqnovative.com</a></p>
                                     </div>
                                 </div>
