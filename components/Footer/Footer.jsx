@@ -77,7 +77,6 @@ export default function Footer()
                 <i className="fab fa-whatsapp whatsapp-icon"></i>
             </a>
         </Link>
-            <!--Start of Tawk.to Script-->
         <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
         (function(){
@@ -89,7 +88,6 @@ export default function Footer()
         s0.parentNode.insertBefore(s1,s0);
         })();
         </script>
-        <!--End of Tawk.to Script-->
     </footer>
     <Link href="#">
     <a id="back-to-top"  className="show">
