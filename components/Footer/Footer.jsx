@@ -77,17 +77,7 @@ export default function Footer()
                 <i className="fab fa-whatsapp whatsapp-icon"></i>
             </a>
         </Link>
-        <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/60e09ed8d6e7610a49a9738d/1f9mmovqo';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-        </script>
+       
     </footer>
     <Link href="#">
     <a id="back-to-top"  className="show">
