@@ -1,8 +1,14 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import tawkTo from "tawkto-react";
+import React from 'react';
+import  {useState,useEffect} from 'react';
+
 export default function Footer()
+
 {
+    
     return(
+        
         <div>
             
             <footer id="site-footer" className="site-footer bg-gradient footer-top-bottom">
@@ -72,16 +78,13 @@ export default function Footer()
                 <a className="footer-social-icon instagram"  target="_blank"><i className="fab fa-instagram"></i></a></Link>
             </div>
         </div>
-        <Link href="https://wa.me/+919170787453">
-            <a className="footer-social-icon whatsapp whatsapp_float" target="_blank" rel="noopener noreferrer">
+        
+    </footer>
+    <Link href="https://wa.me/+919170787453">
+
+            <a href="https://wa.me/+919170787453" target="_blank" id="back" className="show1" >
                 <i className="fab fa-whatsapp whatsapp-icon"></i>
             </a>
-        </Link>
-       
-    </footer>
-    <Link href="#">
-    <a id="back-to-top"  className="show">
-        <i className="flaticon-arrow-pointing-to-up"></i></a>
         </Link>
         </div>
         
