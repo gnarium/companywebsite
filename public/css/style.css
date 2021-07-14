@@ -11540,6 +11540,49 @@ div.tp-bullets{
 .mc4wp-form-fields .subscribe-inner-form .subscribe-btn-icon i:before {
   font-size: 15px;
 }
+/* Back To Top*/
+#back {
+  background: #fff;
+  color: #00c3ff;
+  border: 0 none;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  opacity: 0;
+  outline: medium none;
+  position: fixed;
+  right: -50px;
+  bottom: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out 0s;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  box-shadow: 6px 6px 13px 0px rgba(42, 67, 113, 0.2);
+  -webkit-box-shadow: 6px 6px 13px 0px rgba(42, 67, 113, 0.2);
+  -moz-box-shadow: 6px 6px 13px 0px rgba(42, 67, 113, 0.2);
+}
+#back.show1 {
+  opacity: 1;
+  right: 40px;
+}
+#back i:after, #back i:before {
+  font-size: 20px;
+}
+#back:hover {
+  bottom: 45px;
+}
+
+
 
 /* Back To Top*/
 #back-to-top {
@@ -11574,7 +11617,7 @@ div.tp-bullets{
 }
 #back-to-top.show {
   opacity: 1;
-  right: 40px;
+  right: 480px;
 }
 #back-to-top i:after, #back-to-top i:before {
   font-size: 20px;
@@ -11582,6 +11625,7 @@ div.tp-bullets{
 #back-to-top:hover {
   bottom: 45px;
 }
+
 
 /*--------------------------------------------------------------
 ## 404
