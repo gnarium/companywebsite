@@ -11543,8 +11543,8 @@ div.tp-bullets{
 }
 /* Back To Top*/
 #back {
-  background: #fff;
-  color: green;
+  background: green;
+  
   border: 0 none;
   border-radius: 2px;
   cursor: pointer;
@@ -11578,6 +11578,7 @@ div.tp-bullets{
 }
 #back i:after, #back i:before {
   font-size: 30px;
+  color: white;
 }
 #back:hover {
   bottom: 45px;
