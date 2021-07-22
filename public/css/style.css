@@ -2383,6 +2383,7 @@ textarea {
   padding: 9px 20px;
   box-sizing: border-box;
   outline: none;
+  width: 100%;
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -11544,7 +11545,6 @@ div.tp-bullets{
 #back {
   background: #fff;
   color: green;
-	
   border: 0 none;
   border-radius: 2px;
   cursor: pointer;
@@ -11577,7 +11577,7 @@ div.tp-bullets{
   right: 40px;
 }
 #back i:after, #back i:before {
-  font-size: 20px;
+  font-size: 30px;
 }
 #back:hover {
   bottom: 45px;
