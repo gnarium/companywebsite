@@ -11595,7 +11595,7 @@ div.tp-bullets{
   cursor: pointer;
   width: 46px;
   height: 46px;
-  line-height: 46px;
+  line-height: 56px;
   opacity: 0;
   outline: medium none;
   position: fixed;
