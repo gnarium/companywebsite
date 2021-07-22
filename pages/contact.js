@@ -1,18 +1,16 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
-export default function Contact()
-{
-    function sendEmail(e) {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_1ngyir2', 'template_oszm8gx', e.target, 'user_YZibifdWgZIlO0dN2WmO7')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()
-        }    
+export default function ContactUs() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_hy9133o', 'template_jjpf8o4', e.target, 'user_YZibifdWgZIlO0dN2WmO7')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }  
     return(
         <div>
                    <div id="content" className="site-content">
@@ -37,19 +35,18 @@ export default function Contact()
                                     <h6><span>contact details</span></h6>
                                     <h2 className="main-heading">Our Contacts </h2>
                                 </div>
-        
                                 <p className="m-b45">Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p>
                                 <div className="contact-info text-light m-b30">
                                     <i className="flaticon-world"></i>
                                     <div className="info-text">
                                         <h6>Our Address:</h6>
-                                        <p>C-2139 Rajajipuram , Near Meena Bakery Chauraha , Lucknow, Uttar Pradesh-226017 </p>
+                                        <p>C-4406 , New C Block, RJPM1 , Lucknow, UP-226017 IND</p>
                                     </div>
                                 </div>
                                 <div className="contact-info text-light m-b30">
                                     <i className="flaticon-note"></i>
                                     <div className="info-text">
-                                        <h6>Our mailbox: </h6>
+                                        <h6>Our mailbox:</h6>
                                         <p><a href="mailto:info@gnariumiqnovative.com">info@gnariumiqnovative.com</a></p>
                                     </div>
                                 </div>
@@ -68,25 +65,40 @@ export default function Contact()
                                         <h6><span>GET IN TOUCH</span></h6>
                                     <h2 className="main-heading">Ready to Get Started?</h2>
                                 </div>
-                                <form onSubmit={sendEmail} className="wpcf7-form" method="POST">
-                                    <p>
-                                        <span className="wpcf7-form-control-wrap your-name">
-                                            <input type="text" name="name" id="name" className="wpcf7-form-control wpcf7-text" placeholder="Your Name *" required=""/>
-                                        </span>
-                                    </p>
+                                <form className="contact-form" onSubmit={sendEmail} >
+                                    <div className="col-md-12 col-sm-6">
                                     <p>
                                         <span className="wpcf7-form-control-wrap your-email">
-                                            <input type="email" name="email" id="email" className="wpcf7-form-control wpcf7-text wpcf7-email" placeholder="Your Email *" required=""/>
+                                            <input type="text" name="user_name" id="email" className="wpcf7-form-control wpcf7-text wpcf7-email" placeholder="Your Name *" required=""/>
                                         </span>
                                     </p>
                                     <p>
                                         <span className="wpcf7-form-control-wrap your-message">
-                                            <textarea type="text" name="message" id="message" className="wpcf7-form-control wpcf7-textarea" placeholder="Message..." required=""></textarea>
+                                            <input type="email" name="user_email" id="message" className="wpcf7-form-control wpcf7-textarea" placeholder="Email" required=""/>
                                         </span>
                                     </p>
+                                    </div>
+                                    <div className="col-md-12 col-sm-6">
+                                    <p>
+                                        <span className="wpcf7-form-control-wrap your-name">
+                                            <input type="text" name="contact_number" id="name" className="wpcf7-form-control wpcf7-text" placeholder="Your Phone Number *" required=""/>
+                                        </span>
+                                    </p>
+                                    </div>
+                                    <br/><br/><br/>
+                                    <div className="container-fluid">
+                                    <p>
+                                        <span className="wpcf7-form-control-wrap your-name">
+                                            <textarea name="message"  className="wpcf7-form-control wpcf7-text" placeholder="Your Message *" required=""/>
+                                        </span>
+                                    </p>
+                                    
+                                    </div>
+                                    <div className="col-md-12 col-sm-6">
                                     <p>
                                         <button type="submit" className="octf-btn octf-btn-primary octf-btn-icon">Send Message <i className="flaticon-right-arrow-1"></i></button>
                                     </p>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -100,7 +112,6 @@ export default function Contact()
             </section>
         </div>
 
-        
         </div>
     )
 }
