@@ -80,6 +80,12 @@ export default function Footer()
         </div>
         
     </footer>
+        <Link href="https://tawk.to/chat/60e1fb7dd6e7610a49a990ec/1f9pbspja">
+        <a href="https://tawk.to/chat/60e1fb7dd6e7610a49a990ec/1f9pbspja" id="back1" className="show" target="_blank"  >
+            <i class="fas fa-comment"></i>
+        </a>
+    </Link>
+    
     <Link href="https://wa.me/+919170787453">
 
             <a href="https://wa.me/+919170787453" target="_blank" id="back" className="show1" >
